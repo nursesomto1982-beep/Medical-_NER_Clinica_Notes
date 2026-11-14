@@ -1,0 +1,62 @@
+[
+  {
+    "id": "note_001",
+    "text": "Patient presents with severe hypertension. Prescribed Lisinopril 10mg daily.",
+    "entities": [
+      {
+        "start": 29,
+        "end": 41,
+        "label": "CONDITION",
+        "extracted_text": "hypertension"
+      },
+      {
+        "start": 54,
+        "end": 64,
+        "label": "MEDICATION",
+        "extracted_text": "Lisinopril"
+      },
+      {
+        "start": 65,
+        "end": 69,
+        "label": "DOSAGE",
+        "extracted_text": "10mg"
+      },
+      {
+        "start": 70,
+        "end": 75,
+        "label": "FREQUENCY",
+        "extracted_text": "daily"
+      }
+    ]
+  },
+  {
+    "id": "note_002",
+    "text": "Complains of sharp chest pain radiating to the left arm. Administered Aspirin 325 mg STAT.",
+    "entities": [
+      {
+        "start": 19,
+        "end": 29,
+        "label": "CONDITION",
+        "extracted_text": "chest pain"
+      },
+      {
+        "start": 70,
+        "end": 77,
+        "label": "MEDICATION",
+        "extracted_text": "Aspirin"
+      },
+      {
+        "start": 78,
+        "end": 84,
+        "label": "DOSAGE",
+        "extracted_text": "325 mg"
+      },
+      {
+        "start": 85,
+        "end": 89,
+        "label": "FREQUENCY",
+        "extracted_text": "STAT"
+      }
+    ]
+  }
+]
